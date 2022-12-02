@@ -57,7 +57,7 @@ func main() {
 		}
 	}
 
-	fmt.Println(amount_calories[ind_max])
+	fmt.Printf("Part 1: %d\n", amount_calories[ind_max])
 
 	// --- Part Two ---
 
@@ -77,5 +77,6 @@ func main() {
 		}
 	}
 
-	fmt.Println(amount_calories[ind_max] + amount_calories[snd_ind_max] + amount_calories[trd_ind_max])
+	result := amount_calories[ind_max] + amount_calories[snd_ind_max] + amount_calories[trd_ind_max]
+	fmt.Printf("Part 2: %d\n", result)
 }
