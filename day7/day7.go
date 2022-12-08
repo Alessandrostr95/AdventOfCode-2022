@@ -149,7 +149,7 @@ func main() {
 		}
 	}
 
-	fmt.Printf("Day 1: %d\n", result)
+	fmt.Printf("Part 1: %d\n", result)
 
 	// --- Part Two ---
 
@@ -189,5 +189,5 @@ func main() {
 		}
 	}
 
-	fmt.Printf("Day 2: %d\n", result)
+	fmt.Printf("Part 2: %d\n", result)
 }
