@@ -71,7 +71,7 @@ func main() {
 
 			// check what to print
 			if j >= X-1 && j <= X+1 {
-				fmt.Print("#")
+				fmt.Print("\033[48;2;49;94;104m \033[0m")
 			} else {
 				fmt.Print(".")
 			}
