@@ -1,4 +1,4 @@
-Tu run the code you must execute the command
+To run the code you must execute the command
 ```bash
 go run .
 ```
